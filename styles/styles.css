@@ -1,2 +1,52 @@
 /* work sans font */
   @import url('https://fonts.googleapis.com/css2?family=Lato:wght@700;900&family=Open+Sans:wght@700;800&family=Work+Sans:ital,wght@0,400;0,600;0,700;0,800;1,500&display=swap');
+  /* shared styles */
+  *{
+    font-family: 'Work Sans', sans-serif;
+  }
+  .btn-primary{
+    
+  }
+  /* header parts styles */
+  header{
+    background-color: rgba(255, 144, 14, 0.10);
+    padding: 50px 240px;
+  }
+  /* nav styles */
+nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-title{
+  color: #131313;
+  text-align: center;
+  font-size: 45px;
+  font-weight: 700;
+
+}
+nav>ul{
+  display: flex;
+  
+}
+nav li{
+  margin-right: 30px;
+  list-style: none;
+  font-weight: 500;
+  font-size: 18px;
+}
+nav a{
+  text-decoration: none;
+  color: #424242;
+}
+/* banner styles */
+.banner-content{
+  max-width: 800px;
+  text-align: center;
+  margin: 0 auto;
+}
+.banner-title{
+  font-size: 64px;
+  font-weight: 700px;
+  color: #131313;
+}
